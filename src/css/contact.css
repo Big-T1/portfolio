@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lato', 'Hammersmith One' sans-serif;
+}
+
+:root{
+    --gray: #2D2D2D;
+    --white: #FFFFFF;
+    --vivid-orange: #F16529;
+    --light-gray: #B5B5B5;
+    --dark-gray: #404040;
+}
+
+.send{
+    width: 770px;
+    height: 580px;
+    background-color: var(--dark-gray);
+}
+
+.input {
+    padding: 10px;
+    
+  }
+  
+  .input1, .input2 {
+    padding: 10px;
+    
+
+  }
+  a.nom{
+    font-family: 'Lato';
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    align-items: center;
+    
+}
+.nom p{
+    color: var(--light-gray);
+}
+.nom img{
+    height: 3px;
+    width: 40px;
+    align-self: center;
+}
+
+.meen{
+    padding-right: 70px;
+}
+.meen1{
+    padding-right: 70px;
+}
+
+.message{
+    font-family: 'Hammersmith One';
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--white);
+    margin-left: 9px;
+    
+}
+
+input{
+    background-color: var(--dark-gray);
+    border-radius: 3px;
+}
+
+.input2{
+    height: 331px;
+}
+
+.project{
+    display: flex;
+}
+
+.headers{
+    width: 60%;
+}
+
+.lorem{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--light-gray);
+}
